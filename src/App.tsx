@@ -3,7 +3,7 @@ import { Button } from './components/ui/button';
 import { Moon, Sun, Mail, FileText } from 'lucide-react';
 import { AnimatedPattern } from './components/AnimatedPattern';
 import { TelegramIcon } from './components/TelegramIcon';
-import logoLight from 'figma:asset/8c2d05c9750521c1263798c463a16946c3f17984.png';
+import logoLight from 'src/assets/Criterio logo black .png';
 import logoDark from 'figma:asset/49b9ea036e4cfba6af4750fbcafb66294943ce36.png';
 
 export default function App() {
