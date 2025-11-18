@@ -17,8 +17,10 @@
         'next-themes@0.4.6': 'next-themes',
         'lucide-react@0.487.0': 'lucide-react',
         'input-otp@1.4.2': 'input-otp',
-        'figma:asset/8c2d05c9750521c1263798c463a16946c3f17984.png': path.resolve(__dirname, '.src/assets/Criterio logo black .png'),
-        'figma:asset/49b9ea036e4cfba6af4750fbcafb66294943ce36.png': path.resolve(__dirname, '.src/assets/Criterio logo white .png'),
+        'figma:asset/c1db8598cbf2639ab9b02cf9c70229d3c9d9e544.png': path.resolve(__dirname, './src/assets/c1db8598cbf2639ab9b02cf9c70229d3c9d9e544.png'),
+        'figma:asset/b933a7dd4802024d42dfa6b542db26e00ff4690a.png': path.resolve(__dirname, './src/assets/b933a7dd4802024d42dfa6b542db26e00ff4690a.png'),
+        'figma:asset/8c2d05c9750521c1263798c463a16946c3f17984.png': path.resolve(__dirname, './src/assets/8c2d05c9750521c1263798c463a16946c3f17984.png'),
+        'figma:asset/49b9ea036e4cfba6af4750fbcafb66294943ce36.png': path.resolve(__dirname, './src/assets/49b9ea036e4cfba6af4750fbcafb66294943ce36.png'),
         'embla-carousel-react@8.6.0': 'embla-carousel-react',
         'cmdk@1.1.1': 'cmdk',
         'class-variance-authority@0.7.1': 'class-variance-authority',
@@ -52,8 +54,8 @@
       },
     },
     build: {
-      outDir: 'dist',
-      target: 'esnext'
+      target: 'esnext',
+      outDir: 'build',
     },
     server: {
       port: 3000,
