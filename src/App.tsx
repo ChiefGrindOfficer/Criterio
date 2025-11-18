@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react';
 import { Button } from './components/ui/button';
-import { Moon, Sun, Mail, MessageCircle, FileText, Phone, Linkedin, Send } from 'lucide-react';
+import { Moon, Sun, Mail, FileText } from 'lucide-react';
+import { AnimatedPattern } from './components/AnimatedPattern';
+import { TelegramIcon } from './components/TelegramIcon';
 import logoLight from 'figma:asset/8c2d05c9750521c1263798c463a16946c3f17984.png';
 import logoDark from 'figma:asset/49b9ea036e4cfba6af4750fbcafb66294943ce36.png';
-import telegramLogo from 'figma:asset/c1db8598cbf2639ab9b02cf9c70229d3c9d9e544.png';
-import ogPreview from 'figma:asset/b933a7dd4802024d42dfa6b542db26e00ff4690a.png';
-import { AnimatedPattern } from './components/AnimatedPattern';
 
 export default function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
@@ -38,13 +37,11 @@ export default function App() {
     const metaTags = [
       { property: 'og:title', content: 'Criterio — Web3 Business Consulting' },
       { property: 'og:description', content: 'Still deploying the site — already deploying results.' },
-      { property: 'og:image', content: ogPreview },
       { property: 'og:url', content: url },
       { property: 'og:type', content: 'website' },
-      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:card', content: 'summary' },
       { name: 'twitter:title', content: 'Criterio — Web3 Business Consulting' },
       { name: 'twitter:description', content: 'Still deploying the site — already deploying results.' },
-      { name: 'twitter:image', content: ogPreview },
     ];
 
     metaTags.forEach(({ property, name, content }) => {
@@ -156,7 +153,7 @@ export default function App() {
                 onClick={() => window.open('https://t.me/DanilVC', '_blank')}
                 className="w-full sm:w-auto min-w-[180px] cursor-pointer"
               >
-                <img src={telegramLogo} alt="Telegram" className="size-6 dark:invert" />
+                <TelegramIcon className="size-6" />
                 Quick chat
               </Button>
               
