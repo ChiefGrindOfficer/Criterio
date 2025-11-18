@@ -4,7 +4,7 @@ import { Moon, Sun, Mail, FileText } from 'lucide-react';
 import { AnimatedPattern } from './components/AnimatedPattern';
 import { TelegramIcon } from './components/TelegramIcon';
 import logoLight from 'src/assets/Criterio logo black .png';
-import logoDark from 'figma:asset/49b9ea036e4cfba6af4750fbcafb66294943ce36.png';
+import logoDark from 'src/assets/Criterio logo white .png';
 
 export default function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
