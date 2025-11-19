@@ -1,10 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Button } from './components/ui/button';
 import { Moon, Sun, Mail, MessageCircle, FileText, Phone, Linkedin, Send } from 'lucide-react';
-import logoLight from 'src/assets/Criteriologowhite.png';
-import logoDark from 'src/assets/Criteriologoblack.png';
-import telegramLogo from 'figma:asset/c1db8598cbf2639ab9b02cf9c70229d3c9d9e544.png';
-import ogPreview from 'figma:asset/b933a7dd4802024d42dfa6b542db26e00ff4690a.png';
+const logoLight = "/logo-light.png";
+const logoDark = "/logo-dark.png";
 import { AnimatedPattern } from './components/AnimatedPattern';
 
 export default function App() {
