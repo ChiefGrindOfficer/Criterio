@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
 import { Button } from './components/ui/button';
-import { Moon, Sun, Mail, MessageCircle, FileText, Phone, Linkedin, Send } from 'lucide-react';
+import { Moon, Sun, Mail, MessageCircle, FileText } from 'lucide-react';
+import { AnimatedPattern } from './components/AnimatedPattern';
+
 const logoLight = "/logo-light.png";
 const logoDark = "/logo-dark.png";
-import { AnimatedPattern } from './components/AnimatedPattern';
+const ogPreview = "/og-preview.png";
 
 export default function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
