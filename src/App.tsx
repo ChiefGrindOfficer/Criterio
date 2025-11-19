@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Button } from './components/ui/button';
 import { Moon, Sun, Mail, MessageCircle, FileText, Phone, Linkedin, Send } from 'lucide-react';
 import logoLight from 'figma:asset/8c2d05c9750521c1263798c463a16946c3f17984.png';
-import logoDark from 'figma:asset/49b9ea036e4cfba6af4750fbcafb66294943ce36.png';
+import logoDark from 'figma:asset/Criterio logo black.svg';
 import telegramLogo from 'figma:asset/c1db8598cbf2639ab9b02cf9c70229d3c9d9e544.png';
 import ogPreview from 'figma:asset/b933a7dd4802024d42dfa6b542db26e00ff4690a.png';
 import { AnimatedPattern } from './components/AnimatedPattern';
