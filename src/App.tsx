@@ -156,7 +156,7 @@ export default function App() {
                 onClick={() => window.open('https://t.me/DanilVC', '_blank')}
                 className="w-full sm:w-auto min-w-[180px] cursor-pointer"
               >
-                <img src={telegramLogo} alt="Telegram" className="size-6 dark:invert" />
+                <MessageCircle className="size-5" />
                 Quick Chat
               </Button>
               
