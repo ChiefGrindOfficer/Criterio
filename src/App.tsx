@@ -4,7 +4,7 @@ import { Moon, Sun, Mail, MessageCircle, FileText } from 'lucide-react';
 import { AnimatedPattern } from './components/AnimatedPattern'; 
 
 const logoLight = "public/Criterio-logo-darktheme.png";
-const logoDark = "/logo-light.png";
+const logoDark = "public/Criterio-logo-whitetheme.png";
 const ogPreview = "/og-preview.png";
 
 export default function App() {
