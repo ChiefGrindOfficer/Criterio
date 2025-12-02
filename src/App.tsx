@@ -3,7 +3,7 @@ import { Button } from './components/ui/button';
 import { Moon, Sun, Mail, MessageCircle, FileText } from 'lucide-react';
 import { AnimatedPattern } from './components/AnimatedPattern'; 
 
-const logoLight = "/logo-dark.png";
+const logoLight = "public/Criterio-logo-darktheme.png";
 const logoDark = "/logo-light.png";
 const ogPreview = "/og-preview.png";
 
