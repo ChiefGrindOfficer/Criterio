@@ -165,7 +165,7 @@ export default function App() {
               <Button
                 variant="outline"
                 size="lg"
-                onClick={() => window.open('https://criteriopresentation.vercel.app/', '_blank')}
+                onClick={() => window.open('presentation.criterio.io', '_blank')}
                 className="w-full sm:w-auto min-w-[180px] cursor-pointer"
               >
                 <FileText className="size-5" />
